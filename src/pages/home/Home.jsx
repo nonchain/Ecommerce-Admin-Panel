@@ -1,10 +1,14 @@
 import React from 'react';
-import './home.scss';
+import Sidebar from '../../components/sidebar/Sidebar';
+import styles from './home.module.scss';
 
 const Home = () => {
   return (
-    <div className='home'>
-      <h1 className="title">RiverCode</h1>
+    <div className={styles.home}>
+      <Sidebar />
+      <div className={styles.container}>
+         Content
+      </div>
     </div>
   )
 }
