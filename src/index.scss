@@ -10,6 +10,24 @@ body {
   font-family: 'Nunito Sans', sans-serif;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+button, input {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*==================== GLOBAL CLASSES ====================*/
 .icon-16 {
   font-size: 1rem;
