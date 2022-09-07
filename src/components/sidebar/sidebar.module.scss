@@ -31,30 +31,4 @@
       flex-direction: column;
       gap: 1.5rem;
    }
-
-   .bottom {
-      h2 {
-         margin-bottom: .5rem;
-         color: #98999b;
-         font-size: .816rem;
-         font-weight: 700;
-         text-transform: uppercase;
-      }
-
-      .colorOption {
-         cursor: pointer;
-         display: flex;
-         align-items: center;
-         gap: 0.5rem;
-
-         i {
-            padding: 0.25rem;
-            border-radius: 0.25rem;
-            transition: 0.3s ease-out;
-            &:hover {
-               background-color: #e1e1e1;
-            }
-         }
-      }
-   }
 }

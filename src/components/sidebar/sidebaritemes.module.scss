@@ -13,6 +13,7 @@
       padding: 0.25rem 0.5rem;
       border-radius: 4px;
       cursor: pointer;
+      color: #29322d;
       display: flex;
       align-items: center;
       gap: 0.5rem;
@@ -23,7 +24,7 @@
       }
 
       span {
-         color: #29322d;
+         
          font-size: 1.15em;
          font-weight: 600;
          transition: 0.5s;
