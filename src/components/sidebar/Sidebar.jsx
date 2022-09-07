@@ -1,5 +1,4 @@
 import React from 'react';
-import 'remixicon/fonts/remixicon.css'
 import SidebarItems from './SidebarItems';
 
 import styles from './sidebar.module.scss';
