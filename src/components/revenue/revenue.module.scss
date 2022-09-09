@@ -1,0 +1,62 @@
+.revenue {
+   padding: 0.75rem 1rem 1.5rem;
+   background-color: #fff;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   grid-column: span 1;
+
+   &>div {
+      display: flex;
+      align-items: center;
+   }
+
+   .revenue__header {
+      justify-content: space-between;
+
+      &>i {
+         color: #292432;
+         cursor: pointer;
+      }
+      &>h3 {
+         color: #8e8e8f;
+         font-size: 1rem;
+      }
+   }
+
+   .revenue__body {
+      margin-top: 1.25rem;
+      flex-direction: column;
+      gap: 1rem;
+
+      .progress__bar {
+         width: 100px;
+         height: 100px;
+      }
+
+      &>h3 {
+         color: #98989b;
+         font-size: .912rem;
+         font-weight: 600;
+      }
+
+      .sale__amount {
+         color: #111;
+         font-size: 2rem;
+         font-weight: 500;
+      }
+
+      &>p {
+         color: #98989b;
+         font-size: 0.812rem;
+         font-weight: 600;
+         text-align: center;
+      }
+   }
+
+   .revenue__footer {
+      margin-top: 1.5rem;
+      justify-content: space-around;
+      gap: 1rem;
+   }
+}

@@ -1,0 +1,34 @@
+.revenue__widget {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.5rem;
+
+   h4 {
+      font-size: .912rem;
+      font-weight: 600;
+      color: #68676b;
+   }
+
+   div {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+
+      & > i {
+         color: #56575b;
+      }
+
+      &>span {
+         color: #98979b;
+         font-size: 1.15rem;
+         font-weight: 600;
+      }
+
+      &>span.profit {
+         color: #56575b;
+         font-size: 1.15rem;
+         font-weight: 700;
+      }
+   }
+}
