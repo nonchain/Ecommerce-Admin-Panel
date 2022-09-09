@@ -52,9 +52,9 @@ const RevenueChart = () => {
          <div className={styles.revenue__header}>
             <h3>Total 6 month revenue</h3>
             <div>
-               <span>Min: {calcMin()}</span>
-               <span>Max: {calcMax()}</span>
-               <span>Average: {calcAvg()}</span>
+               <span>Min: ${calcMin()}</span>
+               <span>Max: ${calcMax()}</span>
+               <span>Average: ${calcAvg()}</span>
             </div>
          </div>
 
