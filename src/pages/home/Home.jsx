@@ -8,10 +8,10 @@ import styles from './home.module.scss';
 
 const Home = () => {
   const widgets = [
-    {type: 'user', diff: 34, amount: 100},
-    {type: 'order', diff: 20, amount: 90},
-    {type: 'earning', diff: -10, amount: 100},
-    {type: 'balance', diff: 2, amount: 120}
+    {id: 1, type: 'user', diff: 34, amount: 100},
+    {id: 2, type: 'order', diff: 20, amount: 90},
+    {id: 3, type: 'earning', diff: -10, amount: 100},
+    {id: 4, type: 'balance', diff: 2, amount: 120}
   ]
   return (
     <div className={styles.home}>
@@ -22,7 +22,7 @@ const Home = () => {
 
         <div className={styles.container}>
           <div className={styles.widgets}>
-            {widgets.map(widget => <Widget type={widget.type} diff={widget.diff} amount={widget.amount} />)}
+            {widgets.map(widget => <Widget key={widget.id} type={widget.type} diff={widget.diff} amount={widget.amount} />)}
           </div>
 
           

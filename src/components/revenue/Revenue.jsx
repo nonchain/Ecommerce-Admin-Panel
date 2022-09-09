@@ -7,9 +7,9 @@ import styles from './revenue.module.scss';
 
 const Revenue = ({ percentage }) => {
    const revenueWidgets = [
-      { title: 'Target', amount: 12.4, isProfit: false },
-      { title: 'Last week', amount: 12.4, isProfit: true },
-      { title: 'Last month', amount: 512.4, isProfit: false }
+      {id: 1, title: 'Target', amount: 12.4, isProfit: false },
+      {id: 2, title: 'Last week', amount: 12.4, isProfit: true },
+      {id: 3, title: 'Last month', amount: 512.4, isProfit: false }
    ]
 
    return (
@@ -35,6 +35,7 @@ const Revenue = ({ percentage }) => {
 
          <div className={styles.revenue__footer}>
             {revenueWidgets.map(widget => <RevenueWidget
+               key={widget.id}
                title={widget.title}
                amount={widget.amount}
                isProfit={widget.isProfit} />)}
