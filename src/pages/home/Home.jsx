@@ -25,7 +25,10 @@ const Home = () => {
             {widgets.map(widget => <Widget key={widget.id} type={widget.type} diff={widget.diff} amount={widget.amount} />)}
           </div>
 
-          
+          <div className={styles.revenue}>
+            <Revenue percentage={70}/>
+            <RevenueChart />
+          </div>
         </div>
       </div>
     </div>

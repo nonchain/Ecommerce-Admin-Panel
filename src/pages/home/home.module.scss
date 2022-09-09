@@ -8,11 +8,20 @@
 
    .container {
       padding: 2rem 2rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
    }
 
    .widgets {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 1.5rem;
+   }
+
+   .revenue {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
    }
 }
