@@ -7,29 +7,11 @@ import New from './pages/new/New';
 import Single from './pages/single/Single';
 import Page404 from './pages/error404/Page404';
 
+import 'remixicon/fonts/remixicon.css';
+
 function App() {
   return (
     <div>
-      {/* <nav>
-        <ul>
-          <li>
-            <Link to={'/'}>Home</Link>
-          </li>
-          <li>
-            <Link to={'/login'}>Login</Link>
-          </li>
-          <li>
-            <Link to={'/list'}>List</Link>
-          </li>
-          <li>
-            <Link to={'/new'}>New</Link>
-          </li>
-          <li>
-            <Link to={'/single'}>Single</Link>
-          </li>
-        </ul>
-      </nav> */}
-
       <Routes>
         <Route path='/'>
           <Route index element={<Home />} />
