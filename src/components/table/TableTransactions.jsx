@@ -47,7 +47,7 @@ const TableTransactions = () => {
                      <TableCell >{row?.product}</TableCell>
                      <TableCell align="right">{row?.name}</TableCell>
                      <TableCell align="right">{row?.date}</TableCell>
-                     <TableCell align="right">{row?.amount}</TableCell>
+                     <TableCell align="right">${row?.amount}</TableCell>
                      <TableCell align="right">{row?.payment}</TableCell>
                      <TableCell align="right">
                         <span className={`${styles.order__status} ${setStatus(row?.status)}`}>
