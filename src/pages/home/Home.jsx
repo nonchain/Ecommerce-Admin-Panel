@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar/Navbar';
 import Revenue from '../../components/revenue/Revenue';
 import RevenueChart from '../../components/revenue/RevenueChart';
 import Sidebar from '../../components/sidebar/Sidebar';
+import TableTransactions from '../../components/table/TableTransactions';
 import Widget from '../../components/widget/Widget';
 import styles from './home.module.scss';
 
@@ -28,6 +29,14 @@ const Home = () => {
           <div className={styles.revenue}>
             <Revenue percentage={70}/>
             <RevenueChart />
+          </div>
+
+          <div className={styles.table}>
+            <h2>Last transactions</h2>
+
+            <div>
+              <TableTransactions />
+            </div>
           </div>
         </div>
       </div>
