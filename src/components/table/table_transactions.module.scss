@@ -1,0 +1,24 @@
+.order__id {
+   font-size: 0.912rem;
+   font-weight: 600;
+}
+
+.order__status {
+   padding: 0.5rem;
+   border-radius: 8px;
+   font-size: 0.912rem;
+   font-weight: 600;
+
+   &.approved {
+      background-color: #28e16844;
+      color: #18c158;
+   }
+   &.canceled {
+      background-color: #e1286844;
+      color: #c11858;
+   }
+   &.pending {
+      background-color: #e8e16844;
+      color: #bab24b;
+   }
+}
