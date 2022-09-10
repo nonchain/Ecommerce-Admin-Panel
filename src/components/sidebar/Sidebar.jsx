@@ -10,7 +10,7 @@ const Sidebar = () => {
   ];
 
   const sidebarItemsList = [
-    { icon: 'ri-user-fill', name: 'Users' },
+    { icon: 'ri-user-fill', name: 'Users', link: 'users' },
     { icon: 'ri-store-2-fill', name: 'Products' },
     { icon: 'ri-bank-card-fill', name: 'Orders' },
     { icon: 'ri-truck-fill', name: 'Delivery' },

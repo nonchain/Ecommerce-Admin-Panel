@@ -1,14 +1,19 @@
 import React from 'react';
-import 'remixicon/fonts/remixicon.css'
+import { Link } from 'react-router-dom';
 import styles from './sidebaritemes.module.scss';
 
 const SidebarItems = ({ title, items }) => {
-   const itemsList = items?.map(item => (
-      <li>
-         <i className={`${item.icon} icon-20`}></i>
-         <span>{item.name}</span>
-      </li>
-   ));
+   const itemsList = items?.map(item => {
+      const link = item?.link || '/'
+      return (
+         <li>
+            <Link to={link} className={styles.item}>
+               <i className={`${item.icon} icon-20`}></i>
+               <span>{item.name}</span>
+            </Link>
+         </li>
+      )
+   });
    return (
       <div>
          <h2 className={styles.title}>{title}</h2>
