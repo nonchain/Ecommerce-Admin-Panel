@@ -16,7 +16,8 @@ img {
   object-fit: cover;
 }
 
-button, input {
+button,
+input {
   outline: none;
 }
 
@@ -32,16 +33,39 @@ a {
   text-decoration: none;
 }
 
+.app {
+  display: flex;
+
+  &>div:first-child {
+    flex: 2;
+  }
+
+  .content {
+    background-color: #eaf6f6;
+    flex: 10;
+  }
+
+  .container {
+    padding: 2rem 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
 /*==================== GLOBAL CLASSES ====================*/
 .icon-16 {
   font-size: 1rem;
 }
+
 .icon-20 {
   font-size: 1.25rem;
 }
+
 .icon-24 {
   font-size: 1.5rem;
 }
+
 .icon-32 {
   font-size: 2rem;
 }
