@@ -22,6 +22,8 @@ input {
 }
 
 button {
+  border: none;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -72,4 +74,17 @@ a {
 
 .hidden {
   display: none;
+}
+
+.avatar {
+  width: 54px;
+  height: 54px;
+  border-radius: 99px;
+  overflow: hidden;
+}
+.avatar-mini {
+  width: 36px;
+  height: 36px;
+  border-radius: 99px;
+  overflow: hidden;
 }
