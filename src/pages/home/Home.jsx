@@ -26,7 +26,7 @@ const Home = () => {
           <RevenueChart />
         </div>
 
-        <div className={styles.table}>
+        <div className={styles.transactions}>
           <h2>Last transactions</h2>
 
           <div>
