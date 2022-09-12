@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import { DataGrid } from '@mui/x-data-grid';
 import { userColumns, userRows } from '../../data/usersData';
+import ButtonPrimary from '../button/ButtonPrimary';
+import ButtonDelete from '../button/ButtonDelete';
 
 const actionColumn = [
    {
@@ -11,10 +13,10 @@ const actionColumn = [
       renderCell(params) {
          return (
             <div style={{ display: 'flex', gap: '8px' }}>
-               <Link to={params.row.id}>
-                  <button style={{ padding: '0.5rem', backgroundColor: '#2867e1', color: '#fff', outline: 'none' }}>View</button>
+               <Link to={`${params.row.id}`}>
+                  <ButtonPrimary text={'View'} />
                </Link>
-               <button style={{ padding: '0.5rem', backgroundColor: 'transparent', color: '#dd2424', fontWeight: '600', outline: 'none' }}>Delete</button>
+               <ButtonDelete text={'Delete'} />
             </div>
          )
       }
