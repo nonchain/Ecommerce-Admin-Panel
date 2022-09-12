@@ -58,9 +58,7 @@ const RevenueChart = () => {
             </div>
          </div>
 
-         <div className={styles.revenue__body}>
-            <Chart data={data} />
-         </div>
+         <Chart data={data} />
       </div>
    )
 }
