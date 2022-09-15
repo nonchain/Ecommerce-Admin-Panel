@@ -51,7 +51,7 @@ export const userColumns = [
    {
      id: 1,
      username: "Snow",
-     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+     img: "https://arga-mag.com/file/img/2022/01/Profile-pictures-for-gamers-16.jpg",
      status: "active",
      email: "1snow@gmail.com",
      age: 35,
@@ -59,7 +59,7 @@ export const userColumns = [
    {
      id: 2,
      username: "Jamie Lannister",
-     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+     img: "https://static-b.netshahr.com/www.netshahr.com/images/2017-12/photodune-9235903-game-m-16x9.jpg",
      email: "2snow@gmail.com",
      status: "passive",
      age: 42,
@@ -67,7 +67,7 @@ export const userColumns = [
    {
      id: 3,
      username: "Lannister",
-     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+     img: "https://arga-mag.com/file/img/2022/01/Profile-pictures-for-gamers-16.jpg",
      email: "3snow@gmail.com",
      status: "pending",
      age: 45,
@@ -75,7 +75,7 @@ export const userColumns = [
    {
      id: 4,
      username: "Stark",
-     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+     img: "https://arga-mag.com/file/img/2022/01/Profile-pictures-for-gamers-16.jpg",
      email: "4snow@gmail.com",
      status: "active",
      age: 16,
@@ -83,7 +83,7 @@ export const userColumns = [
    {
      id: 5,
      username: "Targaryen",
-     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+     img: "https://arga-mag.com/file/img/2022/01/Profile-pictures-for-gamers-16.jpg",
      email: "5snow@gmail.com",
      status: "passive",
      age: 22,
@@ -91,7 +91,7 @@ export const userColumns = [
    {
      id: 6,
      username: "Melisandre",
-     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+     img: "https://static-b.netshahr.com/www.netshahr.com/images/2017-12/photodune-9235903-game-m-16x9.jpg",
      email: "6snow@gmail.com",
      status: "active",
      age: 15,
@@ -99,7 +99,7 @@ export const userColumns = [
    {
      id: 7,
      username: "Clifford",
-     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+     img: "https://arga-mag.com/file/img/2022/01/Profile-pictures-for-gamers-16.jpg",
      email: "7snow@gmail.com",
      status: "passive",
      age: 44,
@@ -107,7 +107,7 @@ export const userColumns = [
    {
      id: 8,
      username: "Frances",
-     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+     img: "https://static-b.netshahr.com/www.netshahr.com/images/2017-12/photodune-9235903-game-m-16x9.jpg",
      email: "8snow@gmail.com",
      status: "active",
      age: 36,
@@ -115,7 +115,7 @@ export const userColumns = [
    {
      id: 9,
      username: "Roxie",
-     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+     img: "https://arga-mag.com/file/img/2022/01/Profile-pictures-for-gamers-16.jpg",
      email: "snow@gmail.com",
      status: "pending",
      age: 65,
@@ -123,7 +123,7 @@ export const userColumns = [
    {
      id: 10,
      username: "Roxie",
-     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+     img: "https://static-b.netshahr.com/www.netshahr.com/images/2017-12/photodune-9235903-game-m-16x9.jpg",
      email: "snow@gmail.com",
      status: "active",
      age: 65,
