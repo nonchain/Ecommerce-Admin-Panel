@@ -76,21 +76,22 @@ a {
   display: none;
 }
 
+:is(.avatar, .avatar-mini, .avatar-large) {
+  border-radius: 99px;
+  overflow: hidden;
+  object-fit: cover;
+  text-align: center;
+}
+
 .avatar {
   width: 54px;
   height: 54px;
-  border-radius: 99px;
-  overflow: hidden;
 }
 .avatar-mini {
   width: 36px;
   height: 36px;
-  border-radius: 99px;
-  overflow: hidden;
 }
 .avatar-large {
   width: 72px;
   height: 72px;
-  border-radius: 99px;
-  overflow: hidden;
 }
