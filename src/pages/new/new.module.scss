@@ -1,0 +1,33 @@
+.new__user {
+   .upload {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+
+      .upload__text {
+         font-size: 0.912rem;
+         display: flex;
+         align-items: center;
+         gap: 0.25rem;
+
+         &>label {
+            cursor: pointer;
+         }
+      }
+   }
+
+   .user__info {
+      margin: 2.5rem auto 1rem;
+      max-width: 768px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: flex-start;
+      gap: 2rem;
+   }
+
+   .submit__button {
+      margin: 2rem auto 0;
+      width: 168px;
+   }
+}
