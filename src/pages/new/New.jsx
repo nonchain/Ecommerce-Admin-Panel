@@ -12,7 +12,7 @@ const New = () => {
     const imageFile = e.target.files[0];
     if (!imageFile) return console.log('Not file');
     setFile(imageFile);
-    console.log(file);
+    //console.log(file);
   }
 
   return (
