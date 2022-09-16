@@ -5,6 +5,18 @@ import { userColumns, userRows } from '../../data/usersData';
 import ButtonPrimary from '../button/ButtonPrimary';
 import ButtonDelete from '../button/ButtonDelete';
 
+
+const setData = ({ username, email, img }) => {
+   const data = {
+      username : username,
+      email: email,
+      img: img,
+      phone: '09123456789',
+   }
+
+   return data;
+}
+
 const actionColumn = [
    {
       field: 'action',
@@ -13,7 +25,7 @@ const actionColumn = [
       renderCell(params) {
          return (
             <div style={{ display: 'flex', gap: '8px' }}>
-               <Link to={`${params.row.id}`}>
+               <Link to={`${params.row.id}`} state={{ data: setData(params.row) }}>
                   <ButtonPrimary text={'View'} />
                </Link>
                <ButtonDelete text={'Delete'} />
